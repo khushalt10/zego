@@ -13,8 +13,8 @@ import { Actions } from 'react-native-router-flux';
 const now = new Date().getTime();
 const config = {
   // Get your AppID and AppSign from ZEGOCLOUD Console [My Projects] : https://console.zegocloud.com/project
-  appID: ,
-  appSign: ,
+  appID: '1872601909',
+  appSign: 'dc124522a39ec92737f47d24914a8386ee4ad5a4b2afbcacdef619aa12701ca5',
   userID: 'rn_user_' + now,
   userName: 'rn_user_' + now,
   roomID: '123456',
@@ -45,7 +45,7 @@ export default class Home extends Component {
     }
 
   }
-  
+
   render() {
     return (
       <View style={[styles.homePage, styles.showPage]}>

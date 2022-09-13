@@ -141,8 +141,8 @@ export default class VideoCallPage extends Component {
   }
   // Switch camera
   toggleCamera() {
-    ZegoExpressManager.instance()
-      .enableCamera(!this.state.cameraEnable)
+    ZegoExpressEngine.instance()
+      .useFrontCamera(!this.state.cameraEnable)
       .then(() => {
         this.setState({
           cameraEnable: !this.state.cameraEnable,
