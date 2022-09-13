@@ -251,9 +251,7 @@ export default class VideoCallPage extends Component {
             <Image
               style={styles.image}
               source={
-                this.state.cameraEnable
-                  ? require('../img/camera.png')
-                  : require('../img/camera_off.png')
+                  require('../img/switch-camera.png')
               }
             />
           </TouchableOpacity>
